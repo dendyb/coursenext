@@ -4,14 +4,12 @@ import Header from '../components/Header'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
 
-
-export default function Home() {
+export default function About() {
   return (
     <div className={styles.container}>
-      {/* <Header/> */}
-      <Layout>
-      <h1>Home Page</h1>  
-      </Layout>
+    <Layout>
+      <h1>About Page</h1>
+    </Layout>
     </div>
   )
 }
